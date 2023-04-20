@@ -1,0 +1,310 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f05161 ;
+    z-index: 999;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    opacity: 0.9;
+  }
+
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo img
+  {
+    height: 100px;
+    background-color: rgba(4, 150, 234, 0.9);
+    border-radius:  2px 20px 2px 20px;
+  }
+  .logo2 img
+  {
+    margin-bottom: 40px;
+    height: 100px;
+    opacity: 0;
+  }
+  
+  .search- {
+    border-left: black 2px solid;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search- input[type="text"] {
+    width: 300px;
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: px;
+    font-size: 16px;
+  }
+
+  
+  .search- button[type="submit"] {
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: black 3px 3px 4px;
+  }
+  
+  a
+  {
+    font-weight: bolder;
+    color: #000080;
+  }
+  a:hover
+  {
+    color:#f05161;
+
+  }
+.recipe
+{
+    background-color: #5161f0;
+}
+  img {
+    max-width: 300px;
+  }
+
+  .recipe
+  {
+    overflow: auto;
+    border: black 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .recipe img
+  {
+    float: left;
+    width: 250x;
+    margin-right: 20px;
+    border-radius: 20px;
+
+  }
+  .recipe .description
+  {
+    font-size: x-large;
+    font-family: Comic;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  .more-recipes {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .more-recipes a {
+    display: inline-block;
+    background-color: #5161f0;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .more-recipes a:hover {
+    background-color: #a8a63a;
+  }
+
+.parag
+  {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  }
+
+  .parag
+   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .parag img {
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    margin-bottom: 20px;
+  }
+
+  .parag p {  
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+
+.recipe {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.title {
+  font-weight: bold;
+  width: 120px;
+  background-color: #f2f2f2;
+  border-bottom: hidden;
+}
+
+.content {
+  padding-left: 20px;
+}
+
+
+
+footer
+{
+    background-color: #658f9dcdcb9a;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    padding-bottom: 82px;
+    display: flex;
+}
+footer a
+{
+    color: #998484;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: lighter;
+}
+
+footer .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+body
+{
+    background-color: #f9dcdc;
+}
+
+#important
+{
+    background-color: #f05161;
+    opacity: 90%;
+    border-radius: 20px;
+    padding: 20px;
+    color: #CCCCCC;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img
+{
+    border-radius: 20px;
+}
+h2, h1
+{
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'Alkatra';
+    src: url('Alkatra/Alkatra');
+ }
+ 
+
+#AboutMe {
+    padding: 30px;
+    background-color: #bbacac;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  #AboutMe h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Alkatra', cursive;
+  }
+  
+  #AboutMe p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Alkatra', cursive;
+  }
+  
+  #AboutMe a {
+    color: #f05161;
+    font-weight: bold;
+  }
+  #AboutMe a:hover
+  {
+    color: #92d2f0;
+    font-weight: bold;
+  }
+
+  figcaption
+  {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 1px solid #ccc;
+    padding-top: 1rem; 
+    color: #998484
+ }
+
+ .banner {
+  background-image: url('bg.png');
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 100px); 
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(100px);
+  opacity: 0.8;
+}
+
+.banner h1 {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 6px 2px 3px black;
+  margin-top: 20%;
+}
+
+
+
